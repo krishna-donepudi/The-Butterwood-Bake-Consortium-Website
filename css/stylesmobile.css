@@ -1,0 +1,23 @@
+/*mobile styles*/
+
+/*Hides logo and changes background color if width is less than 480px*/
+/*Reduces font size*/
+@media screen and (max-width: 480px) {
+	#logo{
+		display: none;
+	}
+	body {
+		font-size: 75%;
+		background: none;
+		background-color: #faf7f3;
+	}
+
+	footer {
+		display: none;
+	}
+
+	nav {
+		font-size: 1.25em;
+	}
+
+}

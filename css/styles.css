@@ -1,0 +1,161 @@
+/* CSS Document */
+
+body {
+	font-family: "Roboto";
+	font-size: 100%;
+	line-height: 1.7em;
+  background: url(background2.jpg) white;
+}
+
+a {	
+	color: #0F4970;
+	text-decoration: none;
+}
+
+a:hover {	
+	color: #0F4970;
+	text-decoration: underline;
+}
+
+/*Makes nav bar centered and changes the font-variant*/
+nav {
+	align-content: center;
+	text-align: center;
+	color: #580c3b;
+	font-size: 1.7em;
+	text-decoration: none;
+	font-variant: small-caps;
+}
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+/*Makes selected link bold*/
+.active{
+	font-weight: bold;
+}
+
+/*Makes the website 70% of the page*/
+#container {
+	width: 70%;
+	margin: 10px auto;
+  font-size: 1.25em;
+}
+
+/*Adds a grid structure to the website*/
+.grid-container {
+	display: inline-grid;
+	grid-template-columns: 50% 50%;
+  	grid-gap: 10px;
+  	grid-auto-rows: minmax(100px, auto);
+  	float: center;
+  	align-content: space-around;
+}
+
+h1 {
+  display: none;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+	padding: 3px 3px 3px 3px;
+}
+
+/*makes alternating color for better readability*/
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+th {
+	text-align: left;
+}
+
+form {
+  text-align: center;
+}
+iframe {
+	display: block;
+	margin: auto;
+}
+
+/*Adds a border to the div of butterwood in thew news*/
+#news {
+  border: 1px solid black;
+  padding: 2px 2px 2px 2px;
+}
+
+/*Changes font of footer*/
+footer {
+	font-family: 'proxima-nova', sans-serif;
+	clear: both; /* The clear property specifies which side(s) of an element other floating elements are not allowed. */
+	margin: 0;
+	padding: .5em;
+	font-size: 1em;
+	text-align: left;
+	border-top: 1px dotted #cccccc;
+	background-color: white;
+}
+
+/*Following CSS code was taken from https://www.makeuseof.com/tag/how-to-build-javascript-slideshow/*/
+/*The code was modified as per my preferences*/
+
+#showContainer {
+  /* Main wrapper for all images */
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.navButton {
+  /* Make buttons look nice */ 
+  cursor: pointer;
+  float: left;
+  width: 25px;
+  height: 22px;
+  padding: 10px;
+  margin-right: 5px;
+  overflow: hidden;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  background: #000000;
+  opacity: 0.65;
+  user-select: none;
+}
+
+.navButton:hover {
+  opacity: 1;
+}
+
+.caption {
+  float: right;
+}
+
+.imageContainer:not(:first-child) {
+  /* Hide all images except the first */
+  display: none;
+}
+
+/*The following code was taken from https://stackoverflow.com/questions/10561841/how-to-center-align-jquery-ui-tabs-with-screenshot*/
+
+.ui-tabs .ui-tabs-nav {
+            text-align: center;
+    }
+
+.ui-tabs .ui-tabs-nav li {
+            float: none !important;
+            display: inline-block;
+    }

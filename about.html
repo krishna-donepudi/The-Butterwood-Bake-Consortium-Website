@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="keywords" contents="Bakery, desserts, cakes, pies, wedding cakes">
+	<meta name="description" contents="Butterwood Bake Consortium's Website">
+	<title>Butterwood Bake Consortium</title>
+	
+	<!-- Links to CSS Files -->
+	<link rel="stylesheet" media="all" type="text/css" href="css/styles.css" />
+    <link rel="stylesheet" media="all" type="text/css" href="css/jquery-ui.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.lightbox.css">
+
+
+	<!-- Links to JS files -->
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js" ></script>
+    <script type="text/javascript" src="js/scripts.js" ></script>
+    <script type="text/javascript" src="js/jquery-ui.js" ></script> 
+    <!-- Script for lightbox picture in the table of information -->
+    <script type="text/JavaScript">
+   		$(function() {
+        	$('#gallery a').lightBox();
+		});
+	</script>
+
+
+</head>
+
+<body>
+
+<div id = "container">
+
+	<!-- Nav Bar anc Logo -->
+
+	<div id = "top_row">
+
+		<div id="logo">
+		<a href="index.html"><img src="images/logo.png" alt="Butterwood Bake Consortium" width = 240 height = 200></a>
+		</div>
+
+		<nav>
+			<a href="index.html">Home</a>
+			<a href="visit.html">Visit</a>
+			<a href="orders.html">Orders</a>
+			<a href="contact.html">Contact</a>
+			<a class="active" href="about.html">About</a>
+		</nav>
+		<br/>
+	</div>
+
+	<div class = "grid-container">
+		<div> <!-- Div with about information -->
+		<p>Opened in October 2015, Butterwood Bake Consortium is a dessert cafe located in the Lawrenceville neighbourhood of Pittsburgh, Pennsylvania. The bakery features cake and pie by the slice, custom whole cakes, as well as local KLVN coffee and espresso! They bake with organic Daisy Flour, Wholesome Sweeteners Organic Evaporated Cane Juice, and local, organic eggs.</p>
+		</div>
+
+		<!-- Div with table and further information about the bakery -->
+		<div>
+			<table>
+			<tr>
+				<td>Address</td>
+				<td>
+					5222 Butler St,
+					Pittsburgh, PA,
+					15201</td>
+			</tr>
+			<tr>
+				<td>Phone Number</td>
+				<td>412-781-0218</td>
+			</tr>
+			<tr>
+				<td>Email</td>
+				<td><a href="mailto:info@thebutterwood.com">info@thebutterwood.com</a></td>
+			</tr>
+			<tr>
+				<td>Website</td>
+				<td><a href="https://www.thebutterwoodbakeconsortium.com/" target="_blank">thebutterwoodbakeconsortium.com</a></td>
+			</tr>
+			<tr>
+				<td>Click the thumbnail to see our bakery</td>
+				<td><div id="galleryThumbnail"><div id="thmbnlShadow">
+					<a href="images/location1.jpg" target="_blank" title="Our bakery!">
+					<img src="images/location1.jpg" width=100 height=100/></a></div></div></td>
+			</tr>
+			</table>
+		</div>
+
+		<div> <!-- Div with slideshow of the location -->
+		<!-- The following HTML code was taken from https://www.makeuseof.com/tag/how-to-build-javascript-slideshow/ -->
+			<div id="showContainer">
+			      <div class="imageContainer" id="im_1">
+			        <img src="images/location1.jpg" />
+			        <div class="caption">
+			          Window
+			        </div>
+			      </div>
+
+			      <div class="imageContainer" id="im_2">
+			        <img src="images/location2.jpg" />
+			        <div class="caption">
+			          Bakery
+			        </div>
+			      </div>
+
+			      <div class="imageContainer" id="im_3">
+			        <img src="images/location3.jpg" />
+			        <div class="caption">
+			          Seating
+			        </div>
+			      </div>
+
+			      <div class="navButton" id="previous">&#10094;</div>
+			      <div class="navButton" id="next">&#10095;</div>
+		    </div>
+		    <br/>
+		</div>
+		<div> <!-- Div with butterwood's external links -->
+			<div id="news">
+				<h4>Butterwood in the News</h4>
+				<ul>
+					<li><a href = "https://archive.triblive.com/news/butterwood-bake-consortium-is-a-real-treat/" target="_blank">Trib Live</a></li>
+					<li><a href="https://thepittsburgh100.com/entertainment/food/2018/09/25/pittsburgh-roast-butterwood-bake-consortium" target="_blank">The Pittsburgh 100</a></li>
+					<li><a href="https://www.discovertheburgh.com/bakeries-in-pittsburgh/" target="_blank">Discover the Burgh</a></li>
+				</ul>
+				<br/>
+			</div>
+		</div>
+
+	</div>
+
+	<!-- Footer with social media, phone, and email -->
+	<footer>
+		Visit Our Social Media: 
+		<a href="https://www.facebook.com/thebutterwoodbakeconsortium/" target="_blank"><img src="images/facebook.png" width=20 height=20 alt="Facebook"></a>
+		<a href="https://www.instagram.com/thebutterwoodbakeconsortium/" target="_blank"><img src="images/instagram.png" width=20 height=20  alt="Instagram"></a><br/>
+		Get in Touch with Us:
+		<a href="mailto:info@thebutterwood.com"><img src="images/email.png" width=20 height=20 ></a>
+		<a href="tel:412-781-0218"><img src="images/call.png" width=20 height=20></a><br/>
+		Photos Courtesy: Instagram<br/>
+		Icon Courtesy: FlatIcon
+	</footer>
+
+</div>	
+
+</body>
+
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="keywords" contents="Bakery, desserts, cakes, pies, wedding cakes">
+	<meta name="description" contents="Butterwood Bake Consortium's Website">
+	<title>Butterwood Bake Consortium</title>
+	
+	<!-- Links to CSS Files -->
+	<link rel="stylesheet" media="all" type="text/css" href="css/styles.css" />
+    <link rel="stylesheet" media="all" type="text/css" href="css/jquery-ui.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.lightbox.css">
+
+	<!-- Links media CSS file for mobile resposiveness -->
+    <link rel="stylesheet" media="screen and (max-width: 480px)" href="css/stylesmobile.css">
+
+	<!-- Links to JS files -->
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js" ></script>
+    <script type="text/javascript" src="js/scripts.js" ></script>
+    <script type="text/javascript" src="js/jquery-ui.js" ></script>    
+
+</head>
+
+<body>
+
+<div id = "container">
+
+	<div id = "top_row">
+
+		<div id="logo">
+		<a href="index.html"><img src="images/logo.png" alt="Butterwood Bake Consortium" width = 240 height = 200></a>
+		</div>
+
+		<nav>
+			<a href="index.html">Home</a>
+			<a href="visit.html">Visit</a>
+			<a class="active" href="orders.html">Orders</a>
+			<a href="contact.html">Contact</a>
+			<a href="about.html">About</a>
+		</nav>
+		<br/>
+	</div>
+
+	<h4>Order a Whole Pie</h4> <!-- Extra credit order form for whole Pies -->
+	<div id="content">
+		Pie Order Form<br/>
+		<form>
+		<fieldset>
+			<label for="fname">First Name:</label>
+		  		<input type="text" id="fname" name="fname" value="" placeholder="John" size="20" maxlength ="250" required><br/>
+		  	<label for="lname">Last Name:</label>
+		  		<input type="text" id="lname" name="lname" value="" placeholder="Doe" size="20" maxlength ="250" required><br/>
+		  	Billing Address:<br/>
+		  	<label for="address">Street Address:</label>
+		  		<input type="text" id="address" name="address" value="" size="50" maxlength="250" required></input><br/>
+		  	<label for="city">City:</label>
+		  		<input type="text" id="city" name="city" value="" size="20" maxlength="100" required></input><br/>
+		  	<label for="state">State:</label>
+		  		<input type="text" id="state" name="state" value="" size="10" maxlength="10" required></input><br/>
+		  	<label for="zip">Zip Code:</label>
+		  		<input type="text" id="zip" name="zip" value="" size="6" maxlength="5" required></input><br/>
+		  	<label for="email">Email Address:</label>
+		  	<input type="email" id="email" name="email" value="" Placeholder = "abc@defg.com" required><br/>
+		  	<label for="phone">Phone number:</label>
+		  	<input type="tel" id="phone" name="phone" value="" Placeholder = "1234567890" required ><br/>
+		  	<label for="qty">Number of Pies:</label>
+		  		<select name="qty">
+		  			<option value="1" selected>1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10">10</option>
+				</select><br/>
+			<label for="pieflv">Pie Flavor:</label>
+				<select name="pieflv">
+					<option value="Chocolate Cream" selected>Chocolate Cream</option>
+					<option value="Apple">Apple</option>
+					<option value="Pumpkin">Pumpkin</option>
+					<option value="Butternut Squash">Butternut Squash</option>
+					<option value="Mango">Mango</option>
+					<option value="Sweet Potato">Sweet Potato</option>
+					<option value="Butterscotch">Butterscotch</option>
+					<option value="Pecan">Pecan</option>
+					<option value="Coconut Cream">Coconut Cream</option>
+					<option value="Banana Cream">Banana Cream</option>
+					<option value="Vanilla Custard">Vanilla Custard</option>
+				</select><br/>
+			<label for="date">When do you want to pick up your pie?</label>
+		  	<input type="date" id="date" name="date" value="" size="20" maxlength ="250"><br/>
+		  	<label for="time">What time will you pick up your pie?</label>
+		  	<input type="time" id="time" name="time" value="" size="20" maxlength ="250"><br/>
+		  	<input type="submit">
+		</fieldset>
+		</form>
+		For custom orders visit our <a href="contact.html">contact</a> page!
+
+	</div> <!-- content ender -->
+
+	<!-- Footer with social media, phone, and email -->
+	<footer>
+		Visit Our Social Media: 
+		<a href="https://www.facebook.com/thebutterwoodbakeconsortium/" target="_blank"><img src="images/facebook.png" width=20 height=20 alt="Facebook"></a>
+		<a href="https://www.instagram.com/thebutterwoodbakeconsortium/" target="_blank"><img src="images/instagram.png" width=20 height=20  alt="Instagram"></a><br/>
+		Get in Touch with Us:
+		<a href="mailto:info@thebutterwood.com"><img src="images/email.png" width=20 height=20 ></a>
+		<a href="tel:412-781-0218"><img src="images/call.png" width=20 height=20></a><br/>
+		Photos Courtesy: Instagram<br/>
+		Icon Courtesy: FlatIcon
+	</footer>
+
+</div>	<!-- End container -->
+
+</body>
+
+</html>
